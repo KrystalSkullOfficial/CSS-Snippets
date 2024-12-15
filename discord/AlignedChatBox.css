@@ -25,7 +25,7 @@ form > div[class^=submitContainer] {
   /* move slowmode/typing indicator to match */
   > div[class^=typing] {
     top: -24px;
-    right: calc(var(--custom-index-scrollbar-margin) * 2 + var(--custom-index-scrollbar-width));
+    right: 66px !important;;
     margin-left: auto;
     width: fit-content;
     padding-left: 2px;
